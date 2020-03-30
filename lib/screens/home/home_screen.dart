@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../common/custom_drawer/custom_drawer.dart';
+
 class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -12,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text('XLO'),
       ),
-      drawer: Drawer(),
+      drawer: CustomDrawer(),
     );
   }
 }
